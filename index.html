@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Website</title>
+
+<style>
+body{
+background-color: #cce6ff;
+	font-family: Comic Sans MS, cursive;
+color:black;
+}
+
+h1 {
+text-align:center;
+	color: purple;
+   font-size: 40px;
+}
+
+.section{
+	background-color:white;
+border: 3px solid black;
+	padding: 10px;
+margin:20px;
+	width: 500px;
+}
+
+.title {
+background-color: yellow;
+	text-align: center;
+font-weight:bold;
+	border-bottom: 2px solid black;
+}
+
+a{
+color: blue;
+}
+
+a:visited{
+	color:purple;
+}
+
+.navbar {
+	background-color: lightgray;
+padding:5px;
+	border: 2px solid black;
+margin-bottom: 10px;
+}
+
+.navbar a{
+margin-right:15px;
+	font-weight: bold;
+text-decoration:none;
+}
+
+.btn{
+background-color:#99ff99;
+	border: 2px outset black;
+padding: 5px 10px;
+	font-size:16px;
+font-family: Comic Sans MS, cursive;
+}
+
+hr {
+	border:1px dashed black;
+}
+
+.footer{
+text-align: center;
+	font-size:12px;
+margin-top: 30px;
+	color: gray;
+}
+
+marquee{
+color:red;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>WELCOME TO MY WEBSITE!!!</h1>
+<p align="center"><i>this is my very first website i made while learning html and css :)</i></p>
+
+<div class="navbar">
+<a href="#about">About Me</a>
+<a href="#project">My First Project</a>
+    <a href="#learned">What I Learned</a>
+<a href="#contact">Contact</a>
+</div>
+
+<hr>
+
+<marquee>thanks for visiting my page!!! more coming soon (maybe)</marquee>
+
+<br>
+
+<div class="section" id="about">
+<div class="title">ABOUT ME</div>
+<p>
+hi!! my name is Ayush and i am learning how to build websites.<br>
+i am 16 years old and i am from India.<br>
+	i started like 2 weeks ago and i still dont really know what im doing lol.<br>
+i like cricket, video games and watching movies in free time.
+</p>
+</div>
+
+<div class="section" id="project">
+<div class="title">MY FIRST PROJECT</div>
+<p>
+this website IS my first project!! i made it using notepad
+and just kept refreshing the page to see if it worked.<br><br>
+	here is something i made using svg, i just wanted to try it out:
+</p>
+<svg width="220" height="160" style='border:2px solid black; background-color:white;'>
+<circle cx="110" cy="80" r="50" fill="yellow" stroke="black" stroke-width="2" />
+	<circle cx="90" cy="65" r="6" fill="black" />
+<circle cx="130" cy="65" r="6" fill="black" />
+    <path d="M 80 100 Q 110 130 140 100" stroke="black" stroke-width="3" fill="none" />
+</svg>
+<p><i>(i made a smiley face, svg is kinda cool ngl)</i></p>
+</div>
+
+<div class="section" id="learned">
+<div class="title">WHAT I LEARNED</div>
+<p>
+things i learned so far:
+</p>
+<ul>
+<li>how to make headings</li>
+	<li>how to change colors (kind of)</li>
+<li>divs are confusing but ok</li>
+<li>css can break everything if you are not careful!!</li>
+	<li>centering things is harder than it looks</li>
+</ul>
+<p>
+i probably did a lot of this wrong but it works so im happy :)
+</p>
+</div>
+
+<div class="section" id="contact">
+<div class="title">CONTACT</div>
+<p>
+you can email me at: aabrakadabrada@gmail.com<br>
+</p>
+<button class="btn" onclick="alert('thanks for clicking! this button doesnt actually do anything yet')">Click Me</button>
+</div>
+
+<br>
+<hr>
+
+<div class="footer">
+made by me. 2023. all rights reserved i guess.<br>
+this page was made a long time ago, please dont judge lol
+</div>
+
+</body>
+</html>
