@@ -16,7 +16,15 @@ Then visit <http://localhost:8000>.
 
 Edit the section text, colours, spacing, and section order in `index.html`. The page title is “My First Website”; update it there if you want the browser title to match your changes. The listed root files include no separate image or stylesheet files, so review the HTML for the existing presentation before adding assets or moving styles. If you add local files, use paths relative to `index.html` and keep those references aligned with the files.
 
-This static page can also be served by a static host.
+## Deployment-readiness checklist
+
+The repository inventory lists `README.md` and `index.html`, with no scripts or separate build-output directory. No deployment configuration or completed deployment is verified here. The following are recommendations to check before and after publishing:
+
+- [ ] **Select the correct root/output directory.** For this project as listed, use the project folder containing the root `index.html` as the published root, unless your chosen publishing process requires a different setting. Confirm that the resulting page entry point is `index.html`; do not point to a directory that omits it.
+- [ ] **Check asset paths.** No separate image or stylesheet files are listed. If you add local files, confirm that each reference in `index.html` uses the correct path relative to that file, and that filenames and capitalization match.
+- [ ] **Review configuration and personal information.** The listed root files contain no `.env.example` or separate configuration file. This static page has no server-side environment in which to keep secrets; do not put passwords, tokens, or other secrets in the page or tracked files. Review the About Me and Contact content before publishing, and do not include personal details or contact information you do not intend to make public. Added local assets are also project content and may be publicly accessible when hosted.
+- [ ] **Review the page before publishing.** Check the About Me, First Project, What I Learned, and Contact sections, along with any links, interactions, and added resources. Review the layout at narrow and wide viewport sizes.
+- [ ] **Preview after publishing.** Once published, open the resulting page using the URL provided by your chosen publishing process. Check that the intended page and content appear, links or interactions work as intended, and any added assets load. Inspect the browser console and network panel if something is missing. This preview is a recommended check, not a verified result.
 
 ## Troubleshooting
 
@@ -29,17 +37,18 @@ These are diagnostic checks, not reports of known problems.
 
 ## Configuration and personal data
 
-The listed root files contain no `.env.example` or separate configuration file. This static page has no server-side environment in which to keep secrets: anything placed in its HTML or delivered browser files can be viewed by visitors. Do not put passwords, tokens, or other secrets in the page or tracked files.
+This static page has no server-side environment in which to keep secrets. Anything placed in its HTML or delivered browser files can be viewed by visitors. Do not put passwords, tokens, or other secrets in the page or tracked files.
 
 The page includes About Me and Contact sections. Review their content before publishing, and do not include personal details or contact information you do not intend to make public. Any local assets added to the page are also project content and may be publicly accessible when hosted.
 
 ## Contributor handoff
 
-Keep changes scoped to the intended section, content, or presentation. Preserve `index.html`, existing filenames, and relative references unless a change requires updating them; when adding or moving local files, keep their references aligned. In your handoff, briefly describe what changed and which files or references were affected. Manually review the result before publishing, using the checks below as appropriate. These are review steps, not verified results.
+Keep changes scoped to the intended section, content, or presentation. Preserve `index.html`, existing filenames, and relative references unless a change requires updating them; when adding or moving local files, keep their references aligned. In your handoff, briefly describe what changed and which files or references were affected. Manually review the result before publishing. These are review steps, not verified results.
 
 - Review the About Me, First Project, What I Learned, and Contact sections at narrow and wide viewport sizes.
 - Try links or other interactions present on the page and check their destinations or responses.
 - After changing content, layout, or resource references, check paths and inspect the browser console and network panel.
+- After publishing, open the resulting page and check it again in the browser.
 
 ## Accessibility review checklist
 
