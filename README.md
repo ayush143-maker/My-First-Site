@@ -20,11 +20,11 @@ This static page can also be served by a static host.
 
 ## Troubleshooting
 
-Use these as diagnostic checks; they do not indicate known problems.
+These are diagnostic checks, not reports of known problems.
 
 1. Confirm you opened the root `index.html`, the website’s entry page.
-2. If an added image, stylesheet, or other local file does not load, check its reference in `index.html`, confirm the file is present, and preserve the relative path and filename capitalization.
-3. Inspect the browser console for errors and the network panel for failed page or resource requests. Check the HTML for external requests separately from local file references; external resources depend on network access, while local resources must be present at their referenced paths.
+2. If an added image, stylesheet, or other local file does not load, check its reference in `index.html`, confirm the file is present, and check the relative path and filename capitalization.
+3. Inspect the browser console for errors and the network panel for failed page or resource requests. External requests depend on network access; local resources must be present at their referenced paths.
 4. Review the four sections at narrow and wide viewport sizes if content appears difficult to read or use.
 
 ## Configuration and personal data
@@ -33,13 +33,13 @@ The listed root files contain no `.env.example` or separate configuration file. 
 
 The page includes About Me and Contact sections. Review their content before publishing, and do not include personal details or contact information you do not intend to make public. Any local assets added to the page are also project content and may be publicly accessible when hosted.
 
-## Review checklist
+## Contributor handoff
 
-These are review steps, not verified test results.
+Keep changes scoped to the intended section, content, or presentation. Preserve `index.html`, existing filenames, and relative references unless a change requires updating them; when adding or moving local files, keep their references aligned. In your handoff, briefly describe what changed and which files or references were affected. Manually review the result before publishing, using the checks below as appropriate. These are review steps, not verified results.
 
 - Review the About Me, First Project, What I Learned, and Contact sections at narrow and wide viewport sizes.
 - Try links or other interactions present on the page and check their destinations or responses.
-- After changing content or layout, repeat the path and browser-console checks above.
+- After changing content, layout, or resource references, check paths and inspect the browser console and network panel.
 
 ## Accessibility review checklist
 
