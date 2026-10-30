@@ -58,3 +58,8 @@ These are future review checks, not verified accessibility results.
 - Review links and controls for meaningful names that make destinations or actions clear. If you add images, provide useful alternative text for informative images and treat decorative images accordingly.
 - Check text and link contrast against the page background and readability at narrow viewports.
 - If you add animated or moving effects, check behavior with the operating system’s reduced-motion preference enabled.
+
+## Final release review
+
+- Open `index.html` from the published location and confirm the page loads as expected.
+- Review the published result once on a narrow screen and once on a wider screen; treat this as a release check, not an automated test report.
