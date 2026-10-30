@@ -4,11 +4,11 @@ A beginner-friendly website created while learning HTML and CSS. It brings toget
 
 ## Open the website
 
-No package installation is needed. Open `index.html` in a browser, or start a local server:
+No package installation is needed. Open `index.html` in a browser. Alternatively, run a local server from the project folder:
 
     python -m http.server 8000
 
-Visit http://localhost:8000.
+Then visit http://localhost:8000.
 
 ## Learning by editing
 
