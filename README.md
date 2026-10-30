@@ -1,6 +1,6 @@
 # My-First-Site
 
-A beginner-friendly website created while learning HTML and CSS. It brings together About Me, First Project, What I Learned, and Contact sections on one page.
+A beginner-friendly website created while learning HTML and CSS. It brings together About Me, First Project, What I Learned, and Contact sections on one page for visitors to read.
 
 ## Open the website
 
