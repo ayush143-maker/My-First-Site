@@ -1,6 +1,6 @@
 # My-First-Site
 
-A beginner-friendly website created while learning HTML and CSS. The root `index.html` brings together About Me, First Project, What I Learned, and Contact sections.
+My-First-Site is a beginner-friendly website created while learning HTML and CSS. The root `index.html` brings together About Me, First Project, What I Learned, and Contact sections.
 
 ## Open the website
 
@@ -14,56 +14,13 @@ Then visit <http://localhost:8000>.
 
 ## Personalize the page
 
-Edit the section text, colours, spacing, and section order in `index.html`. The page title is “My First Website”; update it there if you want the browser title to match your changes. The listed root files include no separate image or stylesheet files, so review the HTML for the existing presentation before adding assets or moving styles. If you add local files, use paths relative to `index.html` and keep those references aligned with the files.
+Edit the section text, colors, spacing, and section order in `index.html`. The page title is “My First Website”; update it there if you want the browser title to match your changes. The listed root files include no separate image or stylesheet files, so inspect the existing HTML presentation before adding assets or moving styles.
 
-## Deployment-readiness checklist
+If you add local files, use paths relative to `index.html` and keep those references aligned with the files. Review the About Me and Contact content before publishing: the static page has no server-side environment for secrets, and personal details in browser-delivered files may be visible to visitors.
 
-The repository inventory lists `README.md` and `index.html`, with no scripts or separate build-output directory. No deployment configuration or completed deployment is verified here. The following are recommendations to check before and after publishing:
+## Project files
 
-- [ ] **Select the correct root/output directory.** For this project as listed, use the project folder containing the root `index.html` as the published root, unless your chosen publishing process requires a different setting. Confirm that the resulting page entry point is `index.html`; do not point to a directory that omits it.
-- [ ] **Check asset paths.** No separate image or stylesheet files are listed. If you add local files, confirm that each reference in `index.html` uses the correct path relative to that file, and that filenames and capitalization match.
-- [ ] **Review configuration and personal information.** The listed root files contain no `.env.example` or separate configuration file. This static page has no server-side environment in which to keep secrets; do not put passwords, tokens, or other secrets in the page or tracked files. Review the About Me and Contact content before publishing, and do not include personal details or contact information you do not intend to make public. Added local assets are also project content and may be publicly accessible when hosted.
-- [ ] **Review the page before publishing.** Check the About Me, First Project, What I Learned, and Contact sections, along with any links, interactions, and added resources. Review the layout at narrow and wide viewport sizes.
-- [ ] **Preview after publishing.** Once published, open the resulting page using the URL provided by your chosen publishing process. Check that the intended page and content appear, links or interactions work as intended, and any added assets load. Inspect the browser console and network panel if something is missing. This preview is a recommended check, not a verified result.
+- `index.html` — page entry point, content, and presentation.
+- `README.md` — project documentation.
 
-## Troubleshooting
-
-These are diagnostic checks, not reports of known problems.
-
-1. Confirm you opened the root `index.html`, the website’s entry page.
-2. If an added image, stylesheet, or other local file does not load, check its reference in `index.html`, confirm the file is present, and check the relative path and filename capitalization.
-3. Inspect the browser console for errors and the network panel for failed page or resource requests. External requests depend on network access; local resources must be present at their referenced paths.
-4. Review the four sections at narrow and wide viewport sizes if content appears difficult to read or use.
-
-## Configuration and personal data
-
-This static page has no server-side environment in which to keep secrets. Anything placed in its HTML or delivered browser files can be viewed by visitors. Do not put passwords, tokens, or other secrets in the page or tracked files.
-
-The page includes About Me and Contact sections. Review their content before publishing, and do not include personal details or contact information you do not intend to make public. Any local assets added to the page are also project content and may be publicly accessible when hosted.
-
-## Contributor handoff
-
-Keep changes scoped to the intended section, content, or presentation. Preserve `index.html`, existing filenames, and relative references unless a change requires updating them; when adding or moving local files, keep their references aligned. In your handoff, briefly describe what changed and which files or references were affected. Manually review the result before publishing. These are review steps, not verified results.
-
-- Review the About Me, First Project, What I Learned, and Contact sections at narrow and wide viewport sizes.
-- Try links or other interactions present on the page and check their destinations or responses.
-- After changing content, layout, or resource references, check paths and inspect the browser console and network panel.
-- After publishing, open the resulting page and check it again in the browser.
-
-## Accessibility review checklist
-
-These are future review checks, not verified accessibility results.
-
-- Use Tab and Shift+Tab to check keyboard access, logical focus order, and visible focus indicators for links and other interactive elements.
-- Review links and controls for meaningful names that make destinations or actions clear. If you add images, provide useful alternative text for informative images and treat decorative images accordingly.
-- Check text and link contrast against the page background and readability at narrow viewports.
-- If you add animated or moving effects, check behavior with the operating system’s reduced-motion preference enabled.
-
-## Final release review
-
-- Open `index.html` from the published location and confirm the page loads as expected.
-- Review the published result once on a narrow screen and once on a wider screen; treat this as a release check, not an automated test report.
-
-## Repository map
-
-- `index.html` — HTML page entry point.
+No package scripts or deployment configuration are documented. When reviewing changes, check all four sections and any links or interactions at narrow and wide viewport sizes.
