@@ -1,19 +1,15 @@
 # My-First-Site
 
-A beginner-friendly website created while learning HTML and CSS. The root `index.html` brings together About Me, First Project, What I Learned, and Contact sections for visitors to read.
+A beginner-friendly website created while learning HTML and CSS. The root `index.html` brings together About Me, First Project, What I Learned, and Contact sections.
 
 ## Open the website
 
-No package installation is needed. Open `index.html` in a browser. Alternatively, run a local server from the project folder:
+No package installation is needed. Open `index.html` in a browser, or serve the project folder over HTTP:
 
-    python -m http.server 8000
+```sh
+python -m http.server 8000
+```
 
-Then visit http://localhost:8000. Reload the page after editing to review your changes.
+Then visit <http://localhost:8000>.
 
-## Learning by editing
-
-Try changing the text, colours, spacing, or section order in `index.html` to see how the page structure and styling work together.
-
-## Hosting
-
-This is a static page and can be served by a static host.
+To experiment with the page, try changing the text, colours, spacing, or section order in `index.html`. This static page can also be served by a static host.
