@@ -12,4 +12,8 @@ python -m http.server 8000
 
 Then visit <http://localhost:8000>.
 
-To experiment with the page, try changing the text, colours, spacing, or section order in `index.html`. This static page can also be served by a static host.
+## Personalize the page
+
+Edit the section text, colours, spacing, and section order in `index.html`. The page title is “My First Website”; update it there if you want the browser title to match your changes. The listed root files include no separate image or stylesheet files, so review the HTML for the existing presentation before adding assets or moving styles. If you add local files, use paths relative to `index.html` and keep those references aligned with the files.
+
+This static page can also be served by a static host.
