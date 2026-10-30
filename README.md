@@ -13,3 +13,7 @@ Then visit http://localhost:8000. Reload the page after editing to review your c
 ## Learning by editing
 
 Try changing the text, colours, spacing, or section order in `index.html` to see how the page structure and styling work together.
+
+## Hosting
+
+This is a static page and can be served by a static host.
