@@ -8,7 +8,7 @@ No package installation is needed. Open `index.html` in a browser. Alternatively
 
     python -m http.server 8000
 
-Then visit http://localhost:8000.
+Then visit http://localhost:8000. Reload the page after editing to review your changes.
 
 ## Learning by editing
 
