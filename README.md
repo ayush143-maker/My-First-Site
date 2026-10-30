@@ -26,3 +26,13 @@ This is a checklist of actions to perform, not a record of verified results.
 - If you add images or other local assets, compare their references in `index.html` with their locations and check that they appear as intended.
 - Try any links or other interactions present on the page and check that they lead to the intended destination or respond as expected.
 - Inspect the page at a narrow mobile-sized viewport and a wide desktop-sized viewport. Check that the sections and their content remain readable and usable.
+
+## Accessibility review checklist
+
+These are future review checks, not verified accessibility results.
+
+- Use Tab and Shift+Tab to review keyboard access to any links or other interactive elements in the four page sections. Check that focus order is logical and that each action is possible without a pointer.
+- Check that keyboard focus is clearly visible on each focused link or control.
+- Review links and controls for meaningful names that make their destinations or actions clear. If you add images, check whether informative images have useful alternative text and decorative images are treated as decorative.
+- Check text and link contrast against the page background, including after changing colours, and review readability at narrow viewports.
+- If you add animated or moving effects while editing `index.html`, check their behavior with the operating system's reduced-motion preference enabled.
