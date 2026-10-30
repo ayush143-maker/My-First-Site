@@ -18,29 +18,28 @@ Edit the section text, colours, spacing, and section order in `index.html`. The 
 
 This static page can also be served by a static host.
 
-## Asset and loading review checklist
+## Browser and platform reliability review checklist
 
-This is a checklist of actions to perform, not a record of verified results.
+This is a checklist for a future review, not a record of completed testing or verified results.
 
-- Inspect `index.html` for local image, font, audio, stylesheet, or other media references. If you add files, check that every reference resolves from the page and remove assets only after confirming they are not used.
-- Keep images and other media sized for their role; avoid retaining unnecessarily large originals or unused copies.
-- Review any external font or script references in the HTML and keep them only when they are intentional. Check the page's appearance and readability if an external font is unavailable.
-- After moving or renaming local files, update the page references and check that the assets still load.
+- Review the page in current desktop browsers relevant to your audience and on mobile browsers such as Safari on iOS and Chrome on Android where applicable. Choose target browsers and versions based on intended visitors; no compatibility results are recorded here.
+- Open developer tools and inspect the console and network panel while loading the page and trying its links or other interactions. Look for runtime errors, failed requests, and resources that do not load.
+- Inspect `index.html` for local asset and external font or script references. The listed root files have no separate asset files, but check the HTML itself; if you add assets, confirm every path resolves locally and on the host. Check capitalization and directory names in hosted paths.
+- Compare a narrow mobile-sized viewport with a wide desktop-sized viewport. Check that the four sections and their content remain readable and usable, and review on actual mobile hardware where practical.
 
 ## Manual review checklist
 
-This is a checklist of actions to perform, not a record of verified results.
+These are review steps, not verified results.
 
-- Open the root `index.html` in a browser, or use the local preview steps above. Review the About Me, First Project, What I Learned, and Contact sections.
-- Try any links or other interactions present on the page and check that they lead to the intended destination or respond as expected.
-- Inspect the page at a narrow mobile-sized viewport and a wide desktop-sized viewport. Check that the sections and their content remain readable and usable.
+- Open the root `index.html` or use the local preview steps above. Review the About Me, First Project, What I Learned, and Contact sections.
+- Try links or other interactions present on the page and check their destinations or responses.
+- After changing colors, content, or layout, repeat the browser, network, and viewport review.
 
 ## Accessibility review checklist
 
 These are future review checks, not verified accessibility results.
 
-- Use Tab and Shift+Tab to review keyboard access to any links or other interactive elements in the four page sections. Check that focus order is logical and that each action is possible without a pointer.
-- Check that keyboard focus is clearly visible on each focused link or control.
-- Review links and controls for meaningful names that make their destinations or actions clear. If you add images, check whether informative images have useful alternative text and decorative images are treated as decorative.
-- Check text and link contrast against the page background, including after changing colours, and review readability at narrow viewports.
-- If you add animated or moving effects while editing `index.html`, check their behavior with the operating system's reduced-motion preference enabled.
+- Use Tab and Shift+Tab to check keyboard access, logical focus order, and visible focus indicators for links and other interactive elements.
+- Review links and controls for meaningful names that make destinations or actions clear. If you add images, provide useful alternative text for informative images and treat decorative images accordingly.
+- Check text and link contrast against the page background and readability at narrow viewports.
+- If you add animated or moving effects, check behavior with the operating system's reduced-motion preference enabled.
