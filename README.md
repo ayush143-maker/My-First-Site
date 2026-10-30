@@ -1,19 +1,15 @@
 # My-First-Site
 
-A beginner-friendly first website made while learning HTML and CSS, with About Me, First Project, What I Learned, and Contact sections.
+My-First-Site is a beginner-friendly website created while learning the basics of HTML and CSS. It brings together simple sections such as About Me, First Project, What I Learned, and Contact in one page, making it a snapshot of the early steps in building for the web.
 
-## Run locally
+## Open the website
 
-Open index.html in a modern browser. If browser restrictions block local assets or APIs, serve the folder over HTTP.
+There is no package installation step. Open index.html in a browser to view the page. You can also start a local server from the repository directory:
 
-## Structure and assets
+    python -m http.server 8000
 
-`index.html` is the primary entry point. Keep linked images, audio, scripts, and styles in their existing relative locations; renaming files may break references.
+Then visit http://localhost:8000.
 
-## Preview and deployment
+## Learning by editing
 
-Open the page in a modern browser. If local-file behavior is restricted, start a simple HTTP server from this folder and open the local address in your browser. For static hosting, publish the correct root folder and check asset paths after deployment.
-
-## Making changes
-
-Test the page after edits and check both phone-sized and desktop-sized viewports. Confirm that buttons and other visible interactions work in the deployed version as well as locally.
+The project is intentionally straightforward. Try changing the page text, colours, spacing, and section order in index.html, then refresh the browser to see the result. Keeping the structure simple makes it easier to understand how HTML content and CSS styling work together.
